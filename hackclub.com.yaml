@@ -29,6 +29,7 @@
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
       - google-site-verification=4xlGOIPHkhZqsYh8OMKQy3aqLj6_EKJFAE_iQjb0D_s
       - google-site-verification=xH7iz1qe6HUsWmnYaT9Mxam5K5VhNubX4B-Nl2jmLEw
+      - google-site-verification=dhp4vP1rvcNOr7sHbOF2ynnskqussnxTyxy-xI9edRo
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
@@ -124,6 +125,14 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.27.205.161.5.clients.your-server.de.
+"archive.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.185.68.69.159.clients.your-server.de.
+"*.archive.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.185.68.69.159.clients.your-server.de.
 "a.limited.selfhosted":
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
@@ -537,7 +546,7 @@ angelhacksla:
     value: cname.vercel-dns.com.
 archive:
   - type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: archive.selfhosted.hackclub.com.
 aurora:
   - ttl: 600
     type: CNAME
@@ -1160,6 +1169,10 @@ coxmill:
   - ttl: 600
     type: CNAME
     value: modest-swanson-0a9aa6.netlify.app.
+crm.stemegypt:
+  - ttl: 600
+    type: CNAME
+    value: stemegypt-crm.42web.io.
 craft:
   - ttl: 600
     type: CNAME
@@ -1494,6 +1507,10 @@ express.athena:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+extensify:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
   ttl: 600
   type: CNAME
@@ -1510,6 +1527,10 @@ fhs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+finalist:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 finder:
   ttl: 600
   type: CNAME
@@ -1640,6 +1661,10 @@ gaynormccown:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+gemini:
+  - ttl: 600
+    type: CNAME
+    value: eb419f3dcb10b323.vercel-dns-016.com.
 geochat:
   ttl: 600
   type: CNAME
@@ -1696,6 +1721,10 @@ gr:
   type: CNAME
   value: cname.vercel-dns.com.
 graph.hcb:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+grounded:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -2089,6 +2118,10 @@ jumpstart:
   - ttl: 600
     type: CNAME
     value: themagicfrog.github.io.
+v1.jumpstart:
+  - ttl: 600
+    type: CNAME
+    value: themagicfrog.github.io.
 jp:
   - ttl: 600
     type: CNAME
@@ -2333,7 +2366,7 @@ maxday:
 mc:
   ttl: 600
   type: A
-  value: 34.90.213.59
+  value: 34.90.81.2
 mccownhacks:
   - ttl: 600
     type: NS
@@ -2753,6 +2786,10 @@ plis:
   ttl: 600
   type: CNAME
   value: plis-hackclub.netlify.app.
+plunge:
+    - ttl: 600
+      type: CNAME
+      value: dandililacs.github.io.
 podcast:
   ttl: 600
   type: CNAME
@@ -2889,6 +2926,10 @@ ref.guide:
   ttl: 600
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
+remix:
+  - ttl: 600
+    type: CNAME
+    value:  hackclub.github.io.
 reflow:
   - ttl: 600
     type: CNAME
@@ -3164,6 +3205,10 @@ professorbloom:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+smelt:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 smhs:
   - ttl: 600
     type: CNAME
@@ -3276,6 +3321,10 @@ stickerhuman:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+storyboard: 
+  - ttl: 600
+    type: CNAME 
+    value: a.selfhosted.hackclub.com. 
 straya:
   - ttl: 600
     type: CNAME
@@ -3477,6 +3526,10 @@ toolbox:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+toolsmith:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 toppings:
   ttl: 600
   type: CNAME
@@ -3872,6 +3925,10 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+teachyourmachine:
+  - ttl: 600
+    type: CNAME
+    value: reemlifa.github.io.
 hackducky: #add hackducky
   - ttl: 600
     type: CNAME
